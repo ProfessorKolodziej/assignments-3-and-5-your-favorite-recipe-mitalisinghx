@@ -12,115 +12,115 @@ body {
 /* Layout for iPhone SE */
 @media screen and (max-width: 375px) {
 	h1 {
-		font-size: 2.5em;
+		font-size: 2.5em !important;
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.5em !important;
 	}
 
 	p,
 	li {
-		font-size: 1.2em;
+		font-size: 1.2em !important;
 	}
 
 	img {
-		width: 80%;
+		width: 80% !important;
 	}
 
 	.time-container {
-		flex-direction: column;
-		justify-content: center;
+		flex-direction: column !important;
+		justify-content: center !important;
 	}
 
 	.faq-container {
-		padding: 20px;
-		margin: 10px;
+		padding: 20px !important;
+		margin: 10px !important;
 	}
 
 	.jump-to-recipe {
-		font-size: 1em;
-		padding: 8px 15px;
+		font-size: 1em !important;
+		padding: 8px 15px !important;
 	}
 
 	.container {
-		padding: 10px;
+		padding: 10px !important;
 	}
 }
 
 /* Layout for iPad Pro 11 */
 @media screen and (max-width: 834px) {
 	h1 {
-		font-size: 4em;
+		font-size: 4em !important;
 	}
 
 	h2 {
-		font-size: 2.5em;
+		font-size: 2.5em !important;
 	}
 
 	p,
 	li {
-		font-size: 1.4em;
+		font-size: 1.4em !important;
 	}
 
 	img {
-		width: 60%;
+		width: 60% !important;
 	}
 
 	.jump-to-recipe {
-		font-size: 1.1em;
-		padding: 10px 20px;
+		font-size: 1.1em !important;
+		padding: 10px 20px !important;
 	}
 
 	.time-container {
-		justify-content: space-between;
+		justify-content: space-between !important;
 	}
 
 	.faq-container {
-		padding: 30px;
-		margin: 15px;
+		padding: 30px !important;
+		margin: 15px !important;
 	}
 
 	.container {
-		padding: 15px;
+		padding: 15px !important;
 	}
 }
 
 /* Layout for Macbook Air */
 @media screen and (max-width: 1440px) {
 	h1 {
-		font-size: 6em;
+		font-size: 6em !important;
 	}
 
 	h2 {
-		font-size: 3em;
+		font-size: 3em !important;
 	}
 
 	p,
 	li {
-		font-size: 1.6em;
+		font-size: 1.6em !important;
 	}
 
 	img {
-		width: 50%;
+		width: 50% !important;
 	}
 
 	.jump-to-recipe {
-		font-size: 1.2em;
-		padding: 12px 25px;
+		font-size: 1.2em !important;
+		padding: 12px 25px !important;
 	}
 
 	.time-container {
-		justify-content: space-around;
+		justify-content: space-around !important;
 	}
 
 	.faq-container {
-		padding: 40px;
-		margin: 20px;
+		padding: 40px !important;
+		margin: 20px !important;
 	}
 
 	.container {
-		padding: 20px;
+		padding: 20px !important;
 	}
 }
 

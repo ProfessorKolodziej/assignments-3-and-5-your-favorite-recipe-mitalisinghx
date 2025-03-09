@@ -9,6 +9,121 @@ body {
 	line-height: 1.6;
 }
 
+/* Layout for iPhone SE */
+@media screen and (max-width: 375px) {
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	p,
+	li {
+		font-size: 1.2em;
+	}
+
+	img {
+		width: 80%;
+	}
+
+	.time-container {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.faq-container {
+		padding: 20px;
+		margin: 10px;
+	}
+
+	.jump-to-recipe {
+		font-size: 1em;
+		padding: 8px 15px;
+	}
+
+	.container {
+		padding: 10px;
+	}
+}
+
+/* Layout for iPad Pro 11 */
+@media screen and (max-width: 834px) {
+	h1 {
+		font-size: 4em;
+	}
+
+	h2 {
+		font-size: 2.5em;
+	}
+
+	p,
+	li {
+		font-size: 1.4em;
+	}
+
+	img {
+		width: 60%;
+	}
+
+	.jump-to-recipe {
+		font-size: 1.1em;
+		padding: 10px 20px;
+	}
+
+	.time-container {
+		justify-content: space-between;
+	}
+
+	.faq-container {
+		padding: 30px;
+		margin: 15px;
+	}
+
+	.container {
+		padding: 15px;
+	}
+}
+
+/* Layout for Macbook Air */
+@media screen and (max-width: 1440px) {
+	h1 {
+		font-size: 6em;
+	}
+
+	h2 {
+		font-size: 3em;
+	}
+
+	p,
+	li {
+		font-size: 1.6em;
+	}
+
+	img {
+		width: 50%;
+	}
+
+	.jump-to-recipe {
+		font-size: 1.2em;
+		padding: 12px 25px;
+	}
+
+	.time-container {
+		justify-content: space-around;
+	}
+
+	.faq-container {
+		padding: 40px;
+		margin: 20px;
+	}
+
+	.container {
+		padding: 20px;
+	}
+}
+
 a img {
 	width: 200px;
 	height: 75px;
@@ -72,7 +187,8 @@ h2 {
 	color: #000000;
 	font-size: 50px;
 	margin-top: 20px;
-	border-bottom: 2px solid #000000;
+	margin-bottom: 0px;
+	border-bottom: 3px solid #000000;
 	padding-bottom: 5px;
 	padding-left: 10px;
 }
@@ -80,9 +196,10 @@ h2 {
 h3 {
 	color: #000000;
 	margin-top: 15px;
+	margin-bottom: 0px;
 	font-size: 30px;
 	padding-left: 10px;
-	padding-bottom: 0px;
+	padding-bottom: 10px;
 }
 
 img {
@@ -97,7 +214,9 @@ img {
 p {
 	font-size: 1.6em;
 	margin: 8px 0;
-	padding: 5px
+	margin-top: -10px;
+	padding: 10px;
+	padding-left: 10px;
 }
 
 li {
@@ -128,4 +247,38 @@ h1:last-of-type {
 	display: block;
 	background: teal;
 	height: 7px;
+}
+
+.faq-container {
+	background-color: white;
+	padding: 40px;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1900px;
+	margin: 20px auto;
+	text-align: left;
+}
+
+.time-container {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.time-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+}
+
+.time-box i {
+	font-size: 50px;
+	color: black;
+}
+
+.left-align {
+	text-align: left;
+	margin-left: 20px;
 }

@@ -282,3 +282,7 @@ h1:last-of-type {
 	text-align: left;
 	margin-left: 20px;
 }
+
+.black-text {
+	color: #000;
+}

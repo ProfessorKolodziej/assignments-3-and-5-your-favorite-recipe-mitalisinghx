@@ -140,7 +140,7 @@ div {
 	display: inline-block;
 	font-size: 1.2em;
 	color: #000000;
-	text-decoration: none;
+	text-decoration: underline;
 	font-weight: bold;
 	padding: 10px 20px;
 	margin: 0 auto;
